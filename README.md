@@ -12,9 +12,18 @@ A simple js package that replaces the letters in a sentence
 
 ## Usage/Examples
 
+### Remove whitespace from sentence
 ```javascript
 const replaceLetter = require("letterreplacer");
 
 replaceLetter("So much space!");
 //=> "Somuchspace!"
+```
+### Replace first string of every element of provided array
+```javascript
+import { replaceLetter } from "letterreplacer";
+
+replaceArrFirst(["abc", "def", "ghi"], "*")
+
+//=> "[ '*bc', '*ef', '*hi' ]"
 ```
