@@ -1,0 +1,11 @@
+{
+  "name": "letterreplacer",
+  "version": "2.0.2",
+  "description": "a simple js package that replaces the letters in a sentence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fortune",
+  "license": "MIT"
+}
