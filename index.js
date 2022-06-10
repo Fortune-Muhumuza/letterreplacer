@@ -2,8 +2,7 @@ module.exports = function tiny(string) {
   if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
   return string.replace(/\s/g, "");
 };
-
-export const replaceArrFirst = (arr, replaceWith) => {
+module.exports = replaceArrFirst = (arr, replaceWith) => {
   let newArr = [];
   arr.forEach((el) => {
     const separated = el.split("");
